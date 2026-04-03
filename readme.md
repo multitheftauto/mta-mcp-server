@@ -23,11 +23,10 @@ These are the tools that the MCP server exposes:
    returns raw HTML source for a wiki page.
 
 ## Usage
-TODO: Once hosted somewhere, update URL  
 The easiest way to use the MCP is by adding the MTA-hosted version of the MCP to your mcp.json (or your IDE's equivalent)
 ```json
 "MTA Wiki MCP": {
-	"url": "http://localhost:32768",
+	"url": "https://mcp.multitheftauto.com/wiki",
 	"type": "http"
 }
 ```
