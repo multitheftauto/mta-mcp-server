@@ -51,6 +51,7 @@ Available tools:
 ### Usage
 
 - Run the `debugCompanion` resource on the MTA server.
+  - You might need to give `user.*` access to `resource.debugCompanion.http` in ACL in order for the MCP server to be able to access the companion resource.
 - If you changed the default hostname or API key, make sure to update the values in the project's `appsettings.json` / `appsettings.local.json` so the MCP can communicate with the server.
 - Run the MCP locally (the HTTP MCP exposes the service on the local host).
 - Add the MCP to your `mcp.json` (or IDE equivalent) pointing at the local URL (default local port used by the HTTP host is 5277):
