@@ -1,5 +1,11 @@
 <Solution>
-  <Project Path="MtaWikiMcp.Common/MtaWikiMcp.Common.csproj" Id="64ce43c6-3f33-46f4-9df3-8ee9610b996c" />
-  <Project Path="MtaWikiMcp.Http/MtaWikiMcp.Http.csproj" Id="6555288c-3c57-487f-9c89-8e6d8c3303ed" />
-  <Project Path="MtaWikiMcp.Stdio/MtaWikiMcp.Stdio.csproj" Id="f54916ed-0dd9-4177-95e1-b2fae24b0123" />
+  <Folder Name="/DebugCompanion/">
+    <Project Path="MtaDebugCompanionMcp.Http/MtaDebugCompanionMcp.Http.csproj" Id="1f324c77-76f8-4362-84ad-ab5009f94bdb" />
+    <Project Path="MtaDebugCompanionMcp.Common/MtaDebugCompanionMcp.Common.csproj" Id="dcf0411c-12c2-405e-a6dc-f2eb5de451a1" />
+  </Folder>
+  <Folder Name="/Wiki/">
+    <Project Path="MtaWikiMcp.Common/MtaWikiMcp.Common.csproj" Id="64ce43c6-3f33-46f4-9df3-8ee9610b996c" />
+    <Project Path="MtaWikiMcp.Http/MtaWikiMcp.Http.csproj" Id="6555288c-3c57-487f-9c89-8e6d8c3303ed" />
+    <Project Path="MtaWikiMcp.Stdio/MtaWikiMcp.Stdio.csproj" Id="f54916ed-0dd9-4177-95e1-b2fae24b0123" />
+  </Folder>
 </Solution>
