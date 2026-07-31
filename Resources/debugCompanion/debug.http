@@ -1,0 +1,24 @@
+POST http://localhost:22005/debugCompanion/call/httpRun
+api-key: default
+
+[
+    "5 + 5"
+]
+
+### 
+POST http://localhost:22005/debugCompanion/call/httpRun
+api-key: default
+
+[
+    "(function() error(\"INTENTIONAL_TEST_ERROR_FROM_RUNCODE\") end)()"
+]
+
+
+### 
+POST http://localhost:22005/debugCompanion/call/httpRestartResource
+api-key: default
+
+[
+    "debugCompanion"
+]
+
